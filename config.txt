@@ -24,7 +24,6 @@
  * 8. In the Select Users, Service Accounts, or Groups dialog box, add an account that you will run the miner on
  * 9. Reboot for change to take effect.
  * On Linux you will need to configure large page support "sudo sysctl -w vm.nr_hugepages=128" and increase your
- * and "* hard memlock 262144". You can also do it Windows-style and simply run-as-root, but this is NOT
  * recommended for security reasons.
  *
  * Memory locking means that the kernel can't swap ou the page to disk - something that is unlikey to happen on a 
